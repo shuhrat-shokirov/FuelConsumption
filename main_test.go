@@ -11,7 +11,7 @@ func Test_fuels(t *testing.T) {
 	}{
 		{"For the first car", 8,5,62},
 		{"For the first car", 8,15,187},
-		{"For the first car", 10,0,1},
+		{"For the first car", 10,0,0},
 		// TODO: Add test cases.
 	}
 	for _, testCase := range testCases {
