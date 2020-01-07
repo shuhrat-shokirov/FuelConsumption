@@ -9,9 +9,9 @@ func Test_fuels(t *testing.T) {
 		volume int
 		want int
 	}{
-		{"First car", 8,5,62},
-		{"Second car", 8,15,187},
-		{"Third car", 10,0,0},
+		{"Fuel reserve more than consumption", 8,15,187},
+		{"Fuel reserve equal to consumption", 8,8,100},
+		{"Fuel reserve less than consumption", 10,5,50},
 		// TODO: Add test cases.
 	}
 	for _, testCase := range testCases {
