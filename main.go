@@ -4,6 +4,7 @@ func main() {
 
 }
 func fuels(consumption int, volume int)int{
-	consumptionPer := volume * 100 / consumption
+	const pathLength= 100
+	consumptionPer := volume * pathLength / consumption
 	return consumptionPer
 }
